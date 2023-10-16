@@ -3,9 +3,9 @@
 int multiF(int value);
 void main()
 {
-	printf("1บฮลอ     2ฑ๎ม๖ภว ฐ๖ภบ %d\n", multiF(2));
-	printf("1บฮลอ   3ฑ๎ม๖ภว ฐ๖ภบ %d\n", multiF(3));
-	printf("1บฮลอ 5ฑ๎ม๖ภว ฐ๖ภบ %d\n", multiF(5));
+	printf("1๋ถ€ํฐ     2๊น์ง€์ ๊ณฑ์€ %d\n", multiF(2));
+	printf("1๋ถ€ํฐ   3๊น์ง€์ ๊ณฑ์€ %d\n", multiF(3));
+	printf("1๋ถ€ํฐ 5๊น์ง€์ ๊ณฑ์€ %d\n", multiF(5));
 }
 
 int multiF(int value)
