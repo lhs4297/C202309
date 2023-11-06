@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 int multiF(int value);
-void main()
+
+int main()
 {
-	printf("1ë¶€í„°     2ê¹Œì§€ì˜ ê³±ì€ %d\n", multiF(2));
-	printf("1ë¶€í„°   3ê¹Œì§€ì˜ ê³±ì€ %d\n", multiF(3));
-	printf("1ë¶€í„° 5ê¹Œì§€ì˜ ê³±ì€ %d\n", multiF(5));
+	printf("1ºÎÅÍ     2±îÁöÀÇ °öÀº %d\n", multiF(2));   // 1ºÎÅÍ 2±îÁöÀÇ °öÀ» Ãâ·Â
+	printf("1ºÎÅÍ   3±îÁöÀÇ °öÀº %d\n", multiF(3));   // 1ºÎÅÍ 3±îÁöÀÇ °öÀ» Ãâ·Â
+	printf("1ºÎÅÍ 5±îÁöÀÇ °öÀº %d\n", multiF(5));   // 1ºÎÅÍ 5±îÁöÀÇ °öÀ» Ãâ·Â
+
+	return 0;
 }
 
 int multiF(int value)
@@ -15,8 +18,8 @@ int multiF(int value)
 
 	for (i = 1; i <= value; i = i + 1)
 	{
-		gop = gop * i;
+		gop = gop * i; // 1ºÎÅÍ value±îÁöÀÇ °öÀ» °è»ê
 	}
 
-	return gop;
+	return gop; // °öÇÑ °á°ú¸¦ ¹İÈ¯
 }
